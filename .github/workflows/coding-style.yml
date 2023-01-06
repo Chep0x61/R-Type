@@ -1,0 +1,16 @@
+name: Test Coding Style
+on: [pull_request]
+jobs:
+  Test-Coding-Style:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: Run Clang Tidy
+        uses: ./.github/actions/clang-tidy
+        id: review
+      - if: steps.review.outputs.total_comments > 0
+        run: exit 1
+      - run: echo "Completed coding style check"
