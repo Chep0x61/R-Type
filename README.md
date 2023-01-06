@@ -45,11 +45,11 @@ make ci_test
 
 ## Network RFC
 
-####  [Click to open the network doc](https://github.com/Chep0x61/R-Type/doc/network_rfc.pdf)
+####  [Click to open the network doc](https://github.com/Chep0x61/R-Type/blob/main/doc/network_rfc.pdf)
 
 ## Project Documentation
 
-####  [Click to open the project doc](https://github.com/Chep0x61/R-Type/doc/refman.pdf)
+####  [Click to open the project doc](https://github.com/Chep0x61/R-Type/blob/main/doc/refman.pdf)
 
 # Our Team
 
