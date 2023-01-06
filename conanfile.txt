@@ -1,0 +1,13 @@
+[requires]
+boost/1.80.0
+sfml/2.5.1
+
+[options]
+*:shared=True
+
+[imports]
+lib, *.so* -> lib
+bin, *.dll -> bin
+
+[generators]
+cmake
