@@ -27,8 +27,6 @@ make -C build -j{number_of_threads}
 Before a feature development, I assign myself to the Github Issue and I create a branch (from master) with naming convention (RT-{issue-number}-{short description of issue})
 Example: RT-32-create_user
 
-![img.png](.github/img.png)
-
 ## Before a commit
 - I verify the coding style with the ci_test target
 ```bash
