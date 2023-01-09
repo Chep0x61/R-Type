@@ -22,7 +22,7 @@
 
 ## Setup Project
 
-#### Don't forget to install correctly needed dependencies for Conan to compile correclty.
+#### Don't forget to install correctly needed dependencies for Conan to compile correctly. You can find them in the `configure.sh`.
 
 <br />
 
