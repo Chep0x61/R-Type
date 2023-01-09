@@ -1,4 +1,31 @@
-# Setup Project
+# R-Type
+
+### Epitech's third year project, clone of [R-Type](https://en.wikipedia.org/wiki/R-Type) with multiplayer feature.
+
+## Project Stack
+
+<a href="https://isocpp.org/" target="_blank" rel="noreferrer"> 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/>
+</a>
+<a href="https://www.sfml-dev.org/index.php" target="_blank" rel="noreferrer"> 
+        <img src="https://www.sfml-dev.org/download/goodies/sfml-icon-mini.png" alt="sfml" width="40" height="40"/>
+</a>
+
+## Supported Platforms
+
+<a href="https://www.sfml-dev.org/index.php" target="_blank" rel="noreferrer"> 
+        <img src="https://img.icons8.com/color/512/linux.png" alt="linux" width="40" height="40"/>
+</a>
+<a href="https://www.sfml-dev.org/index.php" target="_blank" rel="noreferrer">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="windows" width="35" height="35"/>
+</a>
+
+## Setup Project
+
+#### Don't forget to install correctly needed dependencies for Conan to compile correclty.
+
+<br />
+
 ```bash
 mkdir build
 ```
@@ -21,23 +48,10 @@ cmake . -B build -D CMAKE_BUILD_TYPE=Debug
 make -C build -j{number_of_threads}
 ```
 
-# Workflow
+# Preview of our game
 
-## Before a feature development
-Before a feature development, I assign myself to the Github Issue and I create a branch (from master) with naming convention (RT-{issue-number}-{short description of issue})
-Example: RT-32-create_user
-
-## Before a commit
-- I verify the coding style with the ci_test target
-```bash
-make ci_test
-```
-- I name my commit with less than 50 characters
-
-## I have finished my feature work
-- I commit my work with following convention : ([ticket-id][feature/fix] milestone: description)          Example : [issue-36][fix] network: fix tcp socket
-- I create a pull request on Github on the dev branch
-- I assign the review to Florian Kamps
+#### Little preview of our Project
+#### Coming soon
 
 # Documentations
 
