@@ -13,10 +13,10 @@
 
 ## Supported Platforms
 
-<a href="https://www.sfml-dev.org/index.php" target="_blank" rel="noreferrer"> 
+<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
         <img src="https://img.icons8.com/color/512/linux.png" alt="linux" width="40" height="40"/>
 </a>
-<a href="https://www.sfml-dev.org/index.php" target="_blank" rel="noreferrer">
+<a href="https://www.microsoft.com/en-us" target="_blank" rel="noreferrer">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="windows" width="35" height="35"/>
 </a>
 
